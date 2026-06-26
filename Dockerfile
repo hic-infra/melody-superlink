@@ -2,6 +2,6 @@ FROM docker.io/flwr/superlink:1.30.0
 
 USER root
 
-RUN apk --no-cache add clang ninja
+RUN apk --no-cache add gcc
 
 USER app
