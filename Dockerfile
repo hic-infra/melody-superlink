@@ -1,4 +1,4 @@
-FROM docker.io/flwr/superlink:1.30.0
+FROM docker.io/flwr/superlink:1.32.0
 
 USER root
 
